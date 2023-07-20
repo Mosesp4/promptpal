@@ -1,9 +1,12 @@
 import Feed from '@components/Feed';
+import Image from "next/image";
 
 
 const home = () => {
   return (
-    <section className="w-full flex-center flex-col">
+    <section className="w-full flex-center flex-col" 
+    style={{ backgroundImage: "url('/images/AI-bg.png')" }}
+    >
         <h1 className="head_text text-center">
         Explore & Exchange  <br className="max-md:hidden"/> 
             <span className="orange_gradient text-center">AI-Generated  Prompts</span>
